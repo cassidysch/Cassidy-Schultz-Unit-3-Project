@@ -1,0 +1,158 @@
+.spaghetti-text {
+    font-size: 30px;
+}
+
+.start-game {
+    animation-iteration-count: infinite;
+    animation-name: press-any-button-animation;
+    animation-duration: 3s;
+    font-weight: 400;
+}
+
+@keyframes press-any-button-animation {
+    0% {
+        color: #4D807A;
+        font-size: 40px;
+    }
+    50% {
+        color: black;
+        font-size: 30px;
+    }
+    100% {
+        color: #4D807A;
+        font-size: 40px;
+    }
+}
+
+div {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: "Bellefair";
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+img {
+    width: 350px;
+    /*border: 9px double #4D807A;*/
+    padding: 10px;
+}
+
+.title {
+    font-size: 110px;
+    color: #4D807A;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-family: "Garamond", Times, serif;
+    margin: 30px;
+    background-color: #4D807A;
+    border: 5px solid #4D807A;
+    border-radius: 200px;
+    transition: 0.5s;
+    color: black;
+}
+
+button:hover {
+    font-size: 26px;
+    height: 60px;
+    width: 350px;
+}
+
+.option-1-continue {
+    width: 250px;
+}
+
+.option-A-continue:hover {
+    width: 300px;
+    font-size: 27px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #4D807A;
+    font-family: 'Bellefair';
+    font-weight: 400;
+}
+
+.Atext {
+    font-size: 30px;
+}
+
+
+/* Hiding the story */
+
+.first-screen {
+    display: none;
+}
+
+.option-A-screen {
+    display: none;
+}
+
+.option-A-continue-screen {
+    display: none;
+}
+
+.option-A1-screen {
+    display: none;
+}
+
+.option-B-screen {
+    display: none;
+}
+
+.option-B1-screen {
+    display: none;
+}
+
+.option-B2-screen {
+    display: none;
+}
+
+.ending-1-screen {
+    display: none;
+}
+
+.ending-2-screen {
+    display: none;
+}
+
+.ending-3-screen {
+    display: none;
+}
+
+.ending-4-screen {
+    display: none;
+}
+
+.ending-5-screen {
+    display: none;
+}
+
+.ending-6-screen {
+    display: none;
+}
+
+.ending-7-screen {
+    display: none;
+}
+
+.epic-buttons {
+    display: none;
+}
